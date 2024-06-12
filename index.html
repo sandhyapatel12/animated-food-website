@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Food Website</title>
+    <!--set favicon-->
+    <link rel="shortcut icon" href="food-images/favicon.png" type="image/x-icon">
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--start fixed image-->
+    <div class="fixed-image">
+    </div>
+    <!--end of fixed image-->
+
+   
+    <!--start main-->
+    <div class="main">
+
+        <div class="page1" id="home">
+
+            <!--start navigation menu-->
+            <nav>
+                <!--logo-->
+                <h1>FOODY</h1>
+
+                <div class="nav-part2">
+                    <h4><a href="#home">Home</a></h4>
+                    <h4><a href="#menu">Menu</a></h4>
+                    <h4><a href="#gallery">Gallery</a></h4>
+                    <h4><a href="#about">About us</a></h4>
+
+                </div>
+
+                <h3 >Menu</h3>
+
+            </nav>
+            <!--end of navigation menu-->
+
+
+            <!--start center part-->
+            <div class="center" >
+
+                <div class="left">
+                    <img src="food-images/main-food.png" alt="">
+                </div>
+
+                <div class="right">
+                    <h1>ENJOY<br>
+                         YOUR<br> 
+                         FOOD</h1>
+                </div>
+            </div>
+            <!--end of center part-->
+
+            <!--start video-->
+            <video autoplay loop muted src="food-images/food.mp4"></video>
+            <!--end of video-->
+
+        </div>      <!--end of Home-->
+
+       
+           
+        <!--start menu-->
+        <div class="page3" id="menu">
+            <h1 class="menu">-- FOOD MENU --</h1>
+
+            <div class="elem-container">
+
+                <div class="element" data-image="./food-images/chinese.jpg">
+                    <div class="overlay"></div>
+                    <h1>CHINESE </h1>
+                </div>
+    
+                <div class="element" data-image="./food-images/panjabi.jpg">
+                    <div class="overlay"></div>
+                    <h1>PANJABI</h1>
+                </div>
+    
+                <div class="element" data-image="./food-images/gujrati.jpg">
+                    <div class="overlay"></div>
+                    <h1>GUJARATI</h1>
+                </div>
+    
+                <div class="element" data-image="./food-images/pizza.jpg">
+                    <div class="overlay"></div>
+                    <h1>PIZZA</h1>
+                </div>
+
+
+                <div class="element" data-image="./food-images/dessert.jpg">
+                    <div class="overlay"></div>
+                    <h1>DESSERT</h1>
+                </div>
+
+                <div class="element" data-image="./food-images/burger.jpg">
+                    <div class="overlay"></div>
+                    <h1>BURGER</h1>
+                </div>
+
+            </div>      <!--end of elem container-->
+
+        </div>      <!--end of menu-->
+
+        <!--start gallery page-->
+        <div class="gallery" id="gallery">
+            <h1 id="h1-all">-- FOOD GALLERY --</h1>
+            <div class="gallery-img">
+
+                <div class="images">
+                    <img src="food-images/burger.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/cake.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/main-food.png" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/gujrati.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/panjabi.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/dessert.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/chinese.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/pizza.jpg" alt="">
+                </div>
+
+                <div class="images">
+                    <img src="food-images/drink.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <!--end of gallery-->
+
+        
+      <!--start about us page-->
+      <div class="about-page" id="about">
+        <h1 id="h1-all">-- ABOUT US --</h1>
+
+        <div class="about-container">
+            <div class="left-about">
+                <img src="food-images/about-img.jpg" alt="">
+            </div>
+            <div class="right-about">
+                <h1>WELCOME TO FOODY</h1>
+
+                <h4>At FOODY, our mission is to provide you with the best culinary delights made from the freshest ingredients.</h4>
+                <h4>We believe in the power of good food to bring joy, comfort, and connection. Whether you’re looking for hearty meals, delectable desserts, or healthy options, our diverse menu has something for everyone.</h4>
+            </div>
+        </div>
+      </div>
+      <!--end of about us page-->
+
+      <!--start footer-->
+        <footer class="footer">
+        <div class="footer-container">
+           
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@foodywebsite.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 345 Food Street, Flavor Town, USA</p>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Sign up for our newsletter to receive the latest updates and special offers:</p>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FOODY. All rights reserved.</p>
+            <div class="footer-social">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+       </footer>
+      <!--end of footer-->
+
+      </div>          <!--end of main-->
+
+    <script src="script.js"></script>
+</body>
+</html>
